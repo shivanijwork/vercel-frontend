@@ -1,6 +1,5 @@
 import { Box, Typography } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
-import React from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { coldarkCold } from 'react-syntax-highlighter/dist/esm/styles/prism';
