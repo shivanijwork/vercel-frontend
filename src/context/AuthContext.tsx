@@ -1,9 +1,9 @@
 //for states like if the person is logged in or not
 
-import React, { useContext, useEffect, useState, type ReactNode } from 'react';
+import { useContext, useEffect, useState, type ReactNode } from 'react';
 import { createContext } from 'react';
 import { checkAuthStatus, loginUser, logoutUser, signupUser } from '../helpers/api-communicator';
-import { toast } from 'react-hot-toast/headless';
+// import { toast } from 'react-hot-toast/headless';
 
 type User ={
     name : string;
